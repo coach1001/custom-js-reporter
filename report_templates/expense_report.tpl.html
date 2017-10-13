@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="qrcode.min.js"></script>
+  <style>
+    .request {
+      color: white !important;
+      background-color: black !important;
+      padding: 5px;
+      border-radius: 10px;
+      font-weight: bolder;
+    }
+    .hline-bottom {
+      padding-bottom: 3px;
+      margin-bottom:3px;
+      border-bottom: 2px solid #000; /* whichever color you prefer */
+    }
+    .detail-bold {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .detail-light {
+      font-size: 10px;
+      font-weight: lighter;
+    }
+    .row-space {
+      height: 5px;
+    }
+  </style>
+  <title></title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-xs-4">
+      <img src='FHRlogoHorizontal.svg'/>
+    </div>
+    <div class="col-xs-8">
+      <div class="row">
+        <div class="col-xs-12 text-right">
+          <strong>Project Officer: Yasmin Sooka</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-right">
+          <strong>Programme: SEJA</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6">
+      <h6>13/10/2017 14:19</h6>
+    </div>
+    <div class="col-xs-6 text-right">
+      <h4>Payment Request <span class="request">2718</span></h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-10">
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Payee: INTERBRAND SAMPSON DEVILLIERS</strong>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Account Number: 401796795</strong>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Bank: Std Bank / Standard Bank of SA</strong>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Branch Code: 51001</strong>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Please Disburse: R 5,130.00</strong>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-xs-2">
+      <div id="qrcode" class="is-pulled-right"></div>
+    </div>
+  </div>
+
+  <div class="hline-bottom"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <strong>Project - 5494</strong>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 detail-bold">
+      KPI 1.1 Public reached by programmes to raise awareness and knowledge of the Constitution
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 detail-light">
+      Moot Court Focus Group
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 detail-light">
+      Contract/Budget: R 163,000.00
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 detail-light">
+      Expense: R 69,154.00
+    </div>
+  </div>
+
+  <div class="row-space"></div>
+
+  <div class="row">
+    <div class="col-xs-6">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Implementer - A</strong>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Foundation For Human Rights (FHR) - Projects
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Contract/Budget: R 163,000.00
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Expense: R 69,154.00
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-12">
+          <strong>Tranche</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-bold">
+          #: 1
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Date: 10 February 2015
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Contract/Budget: R 163,000.00
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 detail-light">
+          Expense: R 69,154.00
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hline-bottom"></div>
+
+</body>
+
+<footer>
+  <script type="text/javascript">
+    new QRCode(document.getElementById("qrcode"), {text: "2718", height: 180,width: 180});
+  </script>
+</footer>
+
+</html>

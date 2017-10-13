@@ -1,0 +1,24 @@
+{
+  "name": "customreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch report_templates --ext js,html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.0.10",
+    "html-pdf": "^2.2.0",
+    "nocache": "^2.0.0",
+    "node-horseman": "^3.3.0",
+    "phantomjs": "^2.1.7",
+    "request": "^2.83.0"
+  }
+}
